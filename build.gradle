@@ -10,7 +10,7 @@ buildscript {
     }
 }
 
-group 'Test06'
+group 'Test07'
 version '1.0-SNAPSHOT'
 
 apply plugin: 'java'
@@ -28,7 +28,7 @@ jacoco {
 
 sonarqube {
     properties {
-        property "sonar.projectName", "Java :: Lab2 Project :: SonarQube Scanner for Gradle"
+        property "sonar.projectName", "Java :: Lab3 Project :: SonarQube Scanner for Gradle"
         property "sonar.projectKey", "org.sonarqube:Lab2"
         property "sonar.jacoco.reportPath", "${project.buildDir}/jacoco/test.exec"
         property "sonar.scm.disabled", "true"
